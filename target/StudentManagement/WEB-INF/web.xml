@@ -1,0 +1,63 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Student Feedback System</display-name>
+
+  <!-- Admin Login Servlet -->
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.example.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+
+  <!-- Admin Logout Servlet -->
+  <servlet>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <servlet-class>com.example.AdminLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <url-pattern>/adminLogout</url-pattern>
+  </servlet-mapping>
+
+  <!-- Student Servlet -->
+  <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>com.example.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/student</url-pattern>
+  </servlet-mapping>
+
+  <!-- Subject Servlet -->
+  <servlet>
+    <servlet-name>SubjectServlet</servlet-name>
+    <servlet-class>com.example.SubjectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubjectServlet</servlet-name>
+    <url-pattern>/subject</url-pattern>
+  </servlet-mapping>
+
+  <!-- Feedback Servlet -->
+  <servlet>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <servlet-class>com.example.FeedbackServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <url-pattern>/feedback</url-pattern>
+  </servlet-mapping>
+
+  <!-- Default Welcome Page -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>

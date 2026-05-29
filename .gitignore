@@ -1,0 +1,6 @@
+echo "target/" > .gitignore
+echo "*.war" >> .gitignore
+echo "*.class" >> .gitignore
+echo ".settings/" >> .gitignore
+echo ".classpath" >> .gitignore
+echo ".project" >> .gitignore
