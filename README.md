@@ -92,7 +92,7 @@ CREATE TABLE feedback (
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/StudentFeedbackSystem.git
+git clone https://github.com/ayushsingh721/StudentFeedbackSystem.git
 ```
 
 2. **Setup Database**
